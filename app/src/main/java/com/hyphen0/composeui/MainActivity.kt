@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.hyphen0.composeui.hotelbooking.HotelBookingScreen
+import com.hyphen0.composeui.notes.NotesScreen
 import com.hyphen0.composeui.ui.theme.ComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeUITheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    HotelBookingScreen()
+                    NotesScreen()
                 }
             }
         }
